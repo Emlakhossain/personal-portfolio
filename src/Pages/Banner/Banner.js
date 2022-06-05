@@ -2,13 +2,14 @@ import React from 'react';
 import banner1 from '../../img/banner .png';
 const Banner = () => {
     return (
-        <div class="hero min-h-screen bg-warning">
+        <div class="hero min-h-screen bg-base-content text-white mx-auto">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <img width={600} src={banner1} class="h-auto rounded-lg shadow-2xl" />
                 <div className='mx-10	'>
-                    <h1 class="text-5xl font-bold ">Hello Imran Ahmed</h1>
-                    <p class="py-6 font-bold">Font End Web Developer</p>
-                    <button class="btn btn-outline font-bold">Download CV</button>
+                    <h1 class="text-5xl font-bold shadow-2xl rounded-lg ">Hello Imran Ahmed</h1>
+                    <p class="pt-2 font-bold">Font End Web Developer</p>
+                    <p className='font-bold py-5'>Email: emlak.hossain7@gmail.com</p>
+                    <button class="btn btn-outline font-bold text-white hover:bg-warning">Download CV</button>
                 </div>
             </div>
         </div>
