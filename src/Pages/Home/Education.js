@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <div>
             <h2 className='text-center text-white font-bold text-3xl my-20'>Education</h2>
-            <div className='gap-10 mx-auto items-center'>
+            <div className='gap-5 mx-auto px-20 items-center'>
                 <div class="card card-side bg-base-100 shadow-xl w-4/5">
                     <figure><img src="https://api.lorem.space/image/movie?w=200&h=280" alt="Movie" /></figure>
                     <div class="card-body">
