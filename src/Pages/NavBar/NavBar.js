@@ -5,15 +5,15 @@ const NavBar = () => {
     const navLink = [
 
         <Link to='/'>Home</Link>,
-        <Link to='/about'>About</Link>,
-        <Link to='/projects'>My Projects</Link>,
-        <Link to='/skils'>Skils</Link>,
-        <Link to='/contact'>Contact Us</Link>,
+        <Link to='#home#about'>About</Link>,
+        <Link to='#home/#projects'>My Projects</Link>,
+        <Link to='#home/#skils'>Skils</Link>,
+        <Link to='#home/#contact'>Contact Us</Link>,
     ];
 
 
     return (
-        <div class="navbar bg-base-content text-white">
+        <div class="navbar bg-base-content text-warning">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">

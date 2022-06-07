@@ -1,8 +1,11 @@
+import jsPDF from 'jspdf';
 import React from 'react';
 import banner1 from '../../img/banner .png';
+import resume from '../../img/emlak_resume.pdf';
 const Banner = () => {
+
     return (
-        <div class="hero min-h-screen bg-base-content text-white mx-auto">
+        <div id='#home' class="hero min-h-screen bg-base-content text-warning mx-auto ">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <img width={600} src={banner1} class="h-auto rounded-lg shadow-2xl" />
                 <div className='mx-10	'>
